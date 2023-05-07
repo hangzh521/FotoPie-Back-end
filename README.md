@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://www.fotopie.net/">
-<img width="250" src="https://fotopie.s3.ap-southeast-2.amazonaws.com/Screenshot+2023-05-07+at+2.03.36+pm-removebg-preview-removebg-preview.jpg">
+<img width="250" src="https://fotopie.s3.ap-southeast-2.amazonaws.com/Screenshot+2023-05-07+at+2.03.36+pm-removebg-preview-removebg-preview+(1).jpg">
 </a>
 </p>
 
