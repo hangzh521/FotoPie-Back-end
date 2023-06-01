@@ -47,9 +47,7 @@ jobs:
     - name: Build and tag Docker image
       id: build-image
       run: |
-        docker build --build-arg AWS_ACCESS_KEY_ID="$AWS_ACCESS_KEY_ID" \
-         --build-arg AWS_SECRET_ACCESS_KEY="$AWS_SECRET_ACCESS_KEY" \
-         --build-arg ACCESS_TOKEN_SECRET_PRIVATE="$ACCESS_TOKEN_SECRET_PRIVATE" \
+        docker build  --build-arg ACCESS_TOKEN_SECRET_PRIVATE="$ACCESS_TOKEN_SECRET_PRIVATE" \
          --build-arg ACCESS_TOKEN_SECRET_PUBLIC="$ACCESS_TOKEN_SECRET_PUBLIC" \
          --build-arg DOMAIN="$DOMAIN" \
          --build-arg EMAIL_CONFIRMATION_URL="$EMAIL_CONFIRMATION_URL" \
