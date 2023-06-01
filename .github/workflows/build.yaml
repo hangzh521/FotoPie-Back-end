@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-  ECR_REGISTRY: 271584491311.dkr.ecr.ap-southeast-2.amazonaws.com
+  ECR_REGISTRY: ${{ secrets.ECR_REGISTRY }}
   ECR_REPOSITORY: node-app
   IMAGE_TAG: latest
   FRONTEND_URL: ${{ secrets.FRONTEND_URL }}
